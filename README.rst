@@ -2,7 +2,7 @@
 real_names_redo
 ===============
 
-This is a mod for `Minetest <https://www.minetest.net/>`__, a fork of the  origianl `real_names mod <https://github.com/Extex101/real_names/>`__ by Extex101.
+This is a mod for `Minetest <https://www.minetest.net/>`__, a fork of the  original `real_names mod <https://github.com/Extex101/real_names/>`__ by Extex101.
 
 It provides the ability to create "realistic" names for players, from a variety of different cultures. New lists of names (and new cultures) can be added simply by creating a few text files.
 
@@ -46,6 +46,31 @@ A: The boxes should be greyed out, but Minetest doesn't appear to offer that fun
 
 How to use
 ----------
+
+Use the drop-down box to select a culture.
+
+Click the **Boy** and **Girl** buttons to switch between male/female names. Click the **Roll** button to select a new given name, or a new family name. A random name is selected from a list.
+
+The box at the bottom shows a full name. For some cultures, the family name might appear before the given name. When you're happy with the full name, click the **Save** button to accept it.
+
+Two chat commands are available:
+
+        **/name_info** - Displays your current "real" name
+
+        **/name_info <player>** - Displays the "real" name of <player>
+
+        **/change_name** - Opens the name selection dialogue
+
+        **/change_name <player>** - Shows the name selection dialogue to <player>
+
+        **/change_name <player> <first> <second>** - Sets the "real" name of <player> directly
+
+Note that **<first>** may be the given name, or the family name, depending on the culture.
+
+Note also that the **/change_name** command requires the **change_name** privilege.
+
+How to modify
+-------------
 
 The mod comes with four sets of names: the original American set, a new British set, and sample sets for Czech and Vietnamese (showcasing the mod's ability to generate names in the correct format for those cultures).
 

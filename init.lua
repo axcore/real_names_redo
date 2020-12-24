@@ -51,7 +51,7 @@ rn.current_gender = "boy"
 rn.name = "real_names_redo"
 
 rn.ver_max = 1
-rn.ver_min = 0
+rn.ver_min = 1
 rn.ver_rev = 0
 
 rn.intllib = S
